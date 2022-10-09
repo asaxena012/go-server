@@ -16,12 +16,14 @@
         Hey, I am Aditya's simple go server, tell me a few things about yourself, and I'll process them and bring them
         back.
     </p>
-    <form>
+    <form method="post" action="/form">
         <label>Name: </label>
-        <input name="name" placeholder="Daniel Philips" />
+        <input name="name" type="text" value="" placeholder="Daniel Philips" />
 
         <label>Nickname: </label>
-        <input name="nickname" placeholder="Dan" />
+        <input name="nickname" type="text" value="" placeholder="Dan" />
+
+        <input type="submit" value="Submit" />
     </form>
 </body>
 
